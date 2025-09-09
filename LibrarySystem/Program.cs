@@ -9,10 +9,10 @@ namespace LibrarySystem.LibrarySystem
         {
             LibraryManager library = new();
 
-            library.AddItem(new Novel(1, "To Kill a Mockingbird", "Harper Lee"));
-            library.AddItem(new Magazine(2, "National Geographic", 256));
-            library.AddItem(new TextBook(3, "Introduction to Algorithms", "MIT Press"));
-            library.AddItem(new Novel(4, "1984", "George Orwell"));
+            library.AddItem(new Novel(1, "Perfect World", "Chen Dong"));
+            library.AddItem(new Magazine(2, "Soulmate", 46));
+            library.AddItem(new TextBook(3, "Data Structure", "Yan WeiMing"));
+            library.AddItem(new Novel(4, "To Live", "Yu Hua"));
 
             Member alice = new("Alice");
             Member bob = new("Bob");
